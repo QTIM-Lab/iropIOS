@@ -45,18 +45,18 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
             print("configured...")
             
-            self.present(ourPicker, animated: true, completion: {
-                print("back from presenting?")
-            })
+            
             
         } else {
             print("No camera available?")
             
-//            ourPicker.sourceType = .photoLibrary
+            ourPicker.sourceType = .photoLibrary
         }
         
         
-        
+        self.present(ourPicker, animated: true, completion: {
+            print("back from presenting?")
+        })
 
         
     }
