@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					043344F5201FE03F00F947BD = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MT4L8GPNW8;
 						ProvisioningStyle = Automatic;
 					};
 					04334509201FE03F00F947BD = {
@@ -414,7 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MT4L8GPNW8;
 				INFOPLIST_FILE = imageClassify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qtim.imageClassify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MT4L8GPNW8;
 				INFOPLIST_FILE = imageClassify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qtim.imageClassify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
